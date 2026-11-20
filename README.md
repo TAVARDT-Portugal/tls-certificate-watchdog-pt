@@ -3,7 +3,7 @@
 [![Âmbito de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/pt/analise-cabecalhos-seguranca/)
 [![Jurisdi%C3%A7%C3%A3o](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Portugal-00C853.svg)](https://ag.tavardt.com/pt/ciberseguranca/)
 
-Monitorização automatizada de expiração de certificados SSL/TLS, integridade criptográfica e conformidade com o RGPD em Portugal.
+Monitorização técnica de expiração de certificados SSL/TLS, integridade criptográfica e conformidade de transporte seguro em Portugal.
 
 Desenvolvido e mantido pela área de ciberdefesa e proteção de infraestruturas da **[TAVARDT Portugal](https://ag.tavardt.com/pt/)**.
 
@@ -11,12 +11,12 @@ Desenvolvido e mantido pela área de ciberdefesa e proteção de infraestruturas
 
 ## 1. Âmbito de Verificação Perimetral
 
-Este utilitário de terminal inspeciona a validade, cifras e autoridades emissoras de ligações HTTPS:
+Este utilitário de terminal inspeciona em tempo real a validade, cifras e autoridades certificadoras de ligações seguras:
 
-* **Alerta Preventivo de Expiração:** Calcula em tempo real os dias restantes para a caducidade dos certificados.
-* **Auditoria de Cifras e Protocolos:** Verifica a imposição de TLS 1.3 e desativação de cifras fracas.
-* **Inspeção da Cadeia de Confiança:** Analisa a autoridade de certificação e correspondência de nomes alternativos.
-* **Execução Nativa em Python:** Desenvolvido sem dependências externas para fácil integração em tarefas agendadas.
+* **Alerta Preventivo de Expiração:** Calcula os dias restantes para o término da validade do certificado com limites configuráveis.
+* **Auditoria de Cifras e Protocolos:** Confirma a utilização de TLS 1.3 e a descontinuação de protocolos legados.
+* **Validação de Autoridade Emissora (CA):** Inspeciona a cadeia de certificação e os nomes alternativos do sujeito (SANs).
+* **Zero Dependências Externas:** Execução direta através das bibliotecas nativas ssl e socket do Python.
 
 ---
 
@@ -25,7 +25,7 @@ Este utilitário de terminal inspeciona a validade, cifras e autoridades emissor
 Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
 
 ```bash
-python watchdog.py example.com
+python watchdog.py exemplo.pt
 ```
 
 ---
@@ -44,4 +44,4 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ## 4. Consultoria e Remediação Técnica
 
-Para auditorias criptográficas de infraestrutura e proteção perimetral em Portugal, contacte a equipa da **[TAVARDT Portugal](https://ag.tavardt.com/pt/contato/)**.
+Para hardening criptográfico de servidores, automação de renovação e proteção corporativa em Portugal, contacte a **[TAVARDT Portugal](https://ag.tavardt.com/pt/contato/)**.
