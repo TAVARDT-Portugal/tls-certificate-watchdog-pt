@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-pt/tls-certificate-watchdog",
+  "version": "1.0.0",
+  "description": "Monitorização automatizada de expiração de certificados SSL/TLS e integridade de cifras perante o RGPD em Portugal.",
+  "license": "MIT",
+  "author": "TAVARDT Portugal (https://ag.tavardt.com/pt/)"
+}
