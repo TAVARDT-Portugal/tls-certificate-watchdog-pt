@@ -1,4 +1,4 @@
-# Watchdog de Certificados TLS/SSL | TAVARDT Portugal
+# Watchdog de Certificados TLS/SSL
 
 [![Âmbito de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/pt/analise-cabecalhos-seguranca/)
 Monitorização técnica de expiração de certificados SSL/TLS, integridade criptográfica e conformidade de transporte seguro em Portugal.
@@ -43,3 +43,7 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 ## 4. Consultoria e Remediação Técnica
 
 Para hardening criptográfico de servidores, automação de renovação e proteção corporativa em Portugal, contacte a **TAVARDT Portugal**.
+
+***
+
+© 2026 TAVARDT. Todos os direitos reservados.
