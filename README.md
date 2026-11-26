@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://ag.tavardt.com/pt/">
+    <img src="https://ag.tavardt.com/img/tavardt-banner.png" alt="TAVARDT" width="1024" />
+  </a>
+</p>
+
 # Watchdog de Certificados TLS/SSL
 
 [![Âmbito de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/pt/analise-cabecalhos-seguranca/)
